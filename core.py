@@ -25,5 +25,6 @@ class App(ShowBase):
         print(f'Loaded all scripts!')
 
         print(f'We are good to go!')
-App().run()
+def run():
+    App().run()
 
